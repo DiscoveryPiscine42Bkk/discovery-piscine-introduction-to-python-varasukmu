@@ -1,0 +1,7 @@
+def passW(x) :
+    password = "Python is awesome"
+    if x == password :
+        print("ACCESS GRANTED")
+    else :
+        print("ACCESS DENIND")
+passW(input())
