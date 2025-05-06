@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 def table() :
     num = int(input("Enter a number\n"))
 

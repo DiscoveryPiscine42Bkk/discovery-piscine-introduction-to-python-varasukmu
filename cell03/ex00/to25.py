@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 def to25() :
     num = int(input("Enter a number less than 25\n"))
 
