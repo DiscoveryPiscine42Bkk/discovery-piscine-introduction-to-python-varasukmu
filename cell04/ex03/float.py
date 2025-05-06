@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 def main() :
     num = float(input("Give me a number: "))
     if not num%1 :

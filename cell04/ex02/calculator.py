@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 def main():
     n1 = int(input("Give me the first number: "))
     n2 = int(input("Give me the second number: "))
