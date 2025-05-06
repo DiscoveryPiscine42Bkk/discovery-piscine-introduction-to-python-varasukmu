@@ -1,5 +1,14 @@
-def greetings(name ="noble stranger"):
-    if name.isinstance
+#!/usr/bin/python3 
 
-    else :
+def greetings(name ="noble stranger"):
+    try :
+        x = int(name)
         print("Error! It wasnot a name.")
+    except :
+        print(f"Hello. {name}.")
+    
+
+greetings('Alexandra')
+greetings('Wil')
+greetings()
+greetings(42)
