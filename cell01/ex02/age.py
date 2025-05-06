@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def age() :
     myage = 19
     bkk = 42

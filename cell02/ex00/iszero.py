@@ -1,3 +1,5 @@
+#!/usr/bin/python3 
+
 def main() :
     num = int(input())
     if num == 0 :
