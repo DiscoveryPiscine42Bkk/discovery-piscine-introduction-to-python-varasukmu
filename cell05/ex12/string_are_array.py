@@ -1,17 +1,24 @@
-#!/usr/bin/python3 
+# #!/usr/bin/python3 
 
-import sys
+# import sys
 
-def main() :
-    n = len(sys.argv)
-    if n == 1 :
-        print("none")
-    else :
-        cou = 0
-        cou += sys.argv[1].count("z")
+# def main() :
+#     n = len(sys.argv)
+#     if n == 1 :
+#         print("none")
+#     else :
+#         cou = 0
+#         cou += sys.argv[1].count("z")
 
-        if not cou :
-            print("none")
-        else :
-            print("z" * cou)
-main()
+#         for i in sys.argv[1] :
+#             if i == "z" :
+#                 cou += 1
+
+#         if not cou :
+#             print("none")
+#         else :
+#             print("z" * cou)
+# main()
+
+for i in "Python is awesome" :
+    print(i)
