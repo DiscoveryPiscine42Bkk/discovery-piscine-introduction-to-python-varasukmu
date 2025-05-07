@@ -1,8 +1,8 @@
 #!/usr/bin/python3 
 
 def iGot() :
-    a = input("What you gotta say? : ")
-    while True:
+    x = input("What you gotta say? : ")
+    while x != "STOP":
         x = input("I got that! Anything else? : ")
         if x == "STOP" :
             break

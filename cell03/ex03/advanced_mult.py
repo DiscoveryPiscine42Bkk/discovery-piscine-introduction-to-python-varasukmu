@@ -10,16 +10,23 @@
 # main()
 
 
-def main() :
-    i = 0
-    while i < 11 :
-        print(f"Table de {i}:", end=" ")
-        j = 0
-        while j < 11 :
-            print(f"{i * j}", end=" ")
-            j += 1
-        print()
+import sys
 
-        i += 1
+if len(sys.argv) == 1 :
+    def main() :
+        i = 0
+        while i < 11 :
+            print(f"Table de {i}:", end=" ")
+            j = 0
+            while j < 11 :
+                print(f"{i * j}", end=" ")
+                j += 1
+            print()
 
-main()
+            i += 1
+    main()
+    
+else :
+    print("none")
+
+
