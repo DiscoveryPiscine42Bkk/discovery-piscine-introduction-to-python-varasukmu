@@ -5,5 +5,5 @@ def passW(x) :
     if x == password :
         print("ACCESS GRANTED")
     else :
-        print("ACCESS DENIND")
+        print("ACCESS DENIED")
 passW(input())

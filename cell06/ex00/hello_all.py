@@ -5,9 +5,9 @@ def hello() :
 
 hello()
 
-class Me :
-    def hello(self) :
-        print("Hello, everyone! by class")
+# class Me :
+#     def hello(self) :
+#         print("Hello, everyone! by class")
 
-m = Me()
-m.hello()
+# m = Me()
+# m.hello()

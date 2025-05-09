@@ -12,8 +12,7 @@
 
 import sys
 
-if len(sys.argv) == 1 :
-    def main() :
+def main() :
         i = 0
         while i < 11 :
             print(f"Table de {i}:", end=" ")
@@ -24,6 +23,9 @@ if len(sys.argv) == 1 :
             print()
 
             i += 1
+
+
+if len(sys.argv) == 1 :
     main()
     
 else :

@@ -3,7 +3,7 @@
 import sys
 
 def main():
-    try :
+    try : 
         print(sys.argv[1])
     except :
         print("none")

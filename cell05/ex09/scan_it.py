@@ -24,9 +24,14 @@ def main():
     try :
         keyW = sys.argv[1]
         txt = sys.argv[2]
-        x = re.search(keyW, txt)
-        print(x.span()[1] - 1)
+        # x = re.search(keyW, txt)
+        a = txt.count(keyW)
+        if not a :
+            print("none")
+        else :
+            print(a)
     except :
         print("none")
 
 main()
+
