@@ -11,8 +11,14 @@ def checkboard(board) :
             print("Not Sq")
             return False
         for col in row :
-            if col in count : count[col] += 1
-            elif col != "." : print("Table ERROR \nonly K Q B R P and .")
+            if col in count : 
+                count[col] += 1
+            elif col != "." : 
+                print("Table ERROR \nonly K Q B R P and .")
+                return False
+    if all(x == 0 for x in count.values()):
+        print("Now you have just only board, How do u play? Hmmm")
+        return False
     if not count["K"] :
         print("Where are King?")
         return False
